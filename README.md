@@ -12,12 +12,13 @@ pulls this repository when it starts, so a push here updates every church PC.
 
 | field | example | notes |
 |---|---|---|
-| `number` | `"45"`, `"MAL5"`, `"TEL1"` | Unique. Searchable. Names the PPT file. |
+| `number` | `"45"`, `"MAL5"`, `"NEW1"` | Unique. Searchable. Names the PPT file. |
 | `name` | `"Aanantha Thuthi Oli Kaekum"` | Tanglish title (phonetic search). |
 | `alias` | `"Anantha Thuthi"` | Optional alternate title (also searched). |
 | `tamilName` | `"ஆனந்த துதி ஒலி கேட்கும்"` | Optional, shown under the name. |
 | `chord` | `"C# Major"` | Optional, `""` when unknown. |
-| `language` | `"tamil"` | `tamil`, `malayalam`, `telugu`, `hindi`, `english`, … The app builds its language filter from these. |
+| `category` | `"New"` | Any name: `Tamil`, `Malayalam`, `New`, `Tamil Chorus`, … Each category becomes a filter chip in the app (capitalisation doesn't matter). If missing, the song's `language` is used. |
+| `language` | `"tamil"` | What the song is sung in: `tamil`, `malayalam`, `telugu`, `hindi`, `english`, … Keep it on every song, whatever its category. |
 
 ## Adding / changing / removing a song
 
